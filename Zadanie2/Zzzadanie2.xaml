@@ -40,11 +40,11 @@
             </StatusBar>
 
             <WrapPanel  DockPanel.Dock="Left" Background="Bisque" Orientation="Vertical">
-                <Button  Background="aqua" Margin="10" Content ="Operation 1"/>
-                <Button  Background="aqua" Margin="10" Content ="Operation 2"/>
-                <Button  Background="aqua" Margin="10" Content ="Operation 3"/>
-                <Button  Background="aqua" Margin="10" Content ="Operation 4"/>
-                <Button  Background="aqua" Margin="10" Content ="Operation 5"/>
+                <Button   Margin="10" Height="30"  Content ="Operation 1"/>
+                <Button   Margin="10" Height="30" Content ="Operation 2"/>
+                <Button   Margin="10" Height="30" Content ="Operation 3"/>
+                <Button   Margin="10" Height="30" Content ="Operation 4"/>
+                <Button   Margin="10" Height="30" Content ="Operation 5"/>
 
             </WrapPanel>
 
@@ -72,9 +72,9 @@
                     </Grid.ColumnDefinitions>
                     <Button Grid.Column="0" Grid.Row="0" Content="1"/>
 
-                    <Button Grid.Column="0" Grid.Row="1" Content="1"/>
-                    <Button Grid.Column="1" Grid.Row="0" Content="1"/>
-                    <Button Grid.Column="1" Grid.Row="1" Content="1"/>
+                    <Button Grid.Column="0" Grid.Row="1" Content="2"/>
+                    <Button Grid.Column="1" Grid.Row="0" Content="3"/>
+                    <Button Grid.Column="1" Grid.Row="1" Content="4"/>
                 </Grid>
             </Grid>
 
