@@ -1,0 +1,83 @@
+﻿<Window x:Class="Zadanie2.Zzzadanie2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Zadanie2"
+        mc:Ignorable="d"
+        Title="Zzzadanie2" Height="450" Width="800">
+    <Grid>
+        <DockPanel LastChildFill="True">
+
+
+            <Grid  DockPanel.Dock="Top" Background="aqua" >
+                <Menu Height="25" VerticalAlignment="Top" Background="aqua" Margin="5">
+                    <Border Background="Gray" BorderBrush="Gainsboro" BorderThickness="1">
+                        <MenuItem Header="MenuItem1" >
+                            <!--<MenuItem Header="New Project" ></MenuItem>
+                        <MenuItem Header="Open Project" >
+                            <MenuItem Header="WinForms"></MenuItem>
+                            <MenuItem Header="WPF" ></MenuItem>
+                        </MenuItem>
+                        <Separator />-->
+                            <MenuItem Header="Poshalka XD" ></MenuItem>
+                        </MenuItem>
+                    </Border>
+
+                    <Border Background="Gray" BorderBrush="Gainsboro" BorderThickness="1">
+                        <MenuItem Header="MenuItem2" ></MenuItem>
+                    </Border>
+                    <Border Background="Gray" BorderBrush="Gainsboro" BorderThickness="1">
+                        <MenuItem Header="MenuItem3" ></MenuItem>
+                    </Border>
+                </Menu>
+            </Grid>
+            <StatusBar DockPanel.Dock="Bottom" Background="aqua" x:Name="Zadanie6" >
+                <StatusBarItem>
+                    <TextBlock  >StatusBar</TextBlock>
+
+                </StatusBarItem>
+            </StatusBar>
+
+            <WrapPanel  DockPanel.Dock="Left" Background="Bisque" Orientation="Vertical">
+                <Button  Background="aqua" Margin="10" Content ="Operation 1"/>
+                <Button  Background="aqua" Margin="10" Content ="Operation 2"/>
+                <Button  Background="aqua" Margin="10" Content ="Operation 3"/>
+                <Button  Background="aqua" Margin="10" Content ="Operation 4"/>
+                <Button  Background="aqua" Margin="10" Content ="Operation 5"/>
+
+            </WrapPanel>
+
+            <Grid>
+                <TextBox Margin="10,10,10,202" />
+                <Grid Margin="0,182,0,0" Width="auto">
+
+                    <Grid.RowDefinitions >
+
+
+                        <RowDefinition />
+
+                        <RowDefinition />
+
+
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+
+                        <ColumnDefinition />
+
+                        <ColumnDefinition />
+
+
+
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0" Grid.Row="0" Content="1"/>
+
+                    <Button Grid.Column="0" Grid.Row="1" Content="1"/>
+                    <Button Grid.Column="1" Grid.Row="0" Content="1"/>
+                    <Button Grid.Column="1" Grid.Row="1" Content="1"/>
+                </Grid>
+            </Grid>
+
+        </DockPanel>
+    </Grid>
+</Window>
